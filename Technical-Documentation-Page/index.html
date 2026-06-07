@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Python Technical Documentation</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav id="navbar">
+    <header>Python Docs</header>
+    <a class="nav-link" href="#Introduction">Introduction</a>
+    <a class="nav-link" href="#Variables_and_Data_Types">Variables and Data Types</a>
+    <a class="nav-link" href="#Control_Flow">Control Flow</a>
+    <a class="nav-link" href="#Functions">Functions</a>
+    <a class="nav-link" href="#Modules_and_Packages">Modules and Packages</a>
+  </nav>
+
+  <main id="main-doc">
+    <section class="main-section" id="Introduction">
+      <header>Introduction</header>
+      <p>Python is a popular, high-level programming language known for its readability and flexibility.</p>
+      <p>It supports multiple paradigms including object-oriented, procedural, and functional programming.</p>
+      <code>print("Hello, world!")</code>
+      <ul>
+        <li>Easy to learn</li>
+        <li>Widely used in industry</li>
+        <li>Open source</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="Variables_and_Data_Types">
+      <header>Variables and Data Types</header>
+      <p>Variables in Python do not need explicit declaration to reserve memory space.</p>
+      <p>The declaration happens automatically when you assign a value to a variable.</p>
+      <code>x = 5</code>
+      <code>name = "Alice"</code>
+      <ul>
+        <li>int</li>
+        <li>float</li>
+        <li>str</li>
+        <li>bool</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="Control_Flow">
+      <header>Control Flow</header>
+      <p>Python provides various control flow tools such as if statements, loops, and more.</p>
+      <p>Indentation is used to define blocks of code instead of curly braces.</p>
+      <code>
+        if x &gt; 10:<br />
+        &nbsp;&nbsp;print("Greater than 10")
+      </code>
+      <ul>
+        <li>if/elif/else</li>
+        <li>while loops</li>
+        <li>for loops</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="Functions">
+      <header>Functions</header>
+      <p>Functions are defined using the `def` keyword.</p>
+      <p>They help in code reusability and modular programming.</p>
+      <code>
+        def greet(name):<br />
+        &nbsp;&nbsp;return f"Hello, {name}"
+      </code>
+      <p>Functions can take arguments and return results.</p>
+    </section>
+
+    <section class="main-section" id="Modules_and_Packages">
+      <header>Modules and Packages</header>
+      <p>Modules allow you to organize your Python code across multiple files.</p>
+      <p>Packages are directories of modules with a special `__init__.py` file.</p>
+      <code>import math</code>
+      <code>from mypackage import mymodule</code>
+      <ul>
+        <li>Standard Library</li>
+        <li>Third-party modules</li>
+        <li>Custom modules</li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
